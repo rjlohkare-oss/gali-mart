@@ -1,0 +1,33 @@
+{
+  "name": "gali-mart",
+  "version": "1.0.0",
+  "description": "Gali Mart — Hyperlocal Delivery App for Nagpur",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.2.0",
+    "react": "^18",
+    "react-dom": "^18",
+
+    "firebase": "^10.12.0",
+
+    "razorpay": "^2.9.2",
+
+    "zustand": "^4.5.2",
+
+    "qrcode.react": "^3.1.0",
+
+    "@googlemaps/js-api-loader": "^1.16.6",
+
+    "react-hot-toast": "^2.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.0"
+  }
+}
