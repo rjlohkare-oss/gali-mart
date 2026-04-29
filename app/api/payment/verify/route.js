@@ -2,7 +2,7 @@
 // Backend API — Razorpay payment verify karo + Firebase update karo
 import crypto from 'crypto'
 import { NextResponse } from 'next/server'
-import { savePaymentInfo } from '@/orders'
+import { savePaymentInfo } from '@/lib/orders'
 
 export async function POST(request) {
   try {
